@@ -1,8 +1,0 @@
-###### Requirements without Version Specifiers ######
-requests
-autopep8
-pytest
-requests
-pytest-html
-pytest-cov
-flask
