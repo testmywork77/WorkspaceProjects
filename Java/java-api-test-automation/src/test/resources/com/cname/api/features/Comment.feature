@@ -1,4 +1,4 @@
-@regression
+@regression @comments
 Feature: Comments REST API CRUD Functionality
   @comment
   Scenario: Verify get all comments functionality

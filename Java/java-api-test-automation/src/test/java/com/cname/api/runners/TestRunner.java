@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         },
         glue = {"com/cname/api/steps"},
         features = {"classpath:com/cname/api/features/"},
-        tags =  "@regression"
+        tags =  "@comments"
 )
 public class TestRunner {
 }
