@@ -1,13 +1,9 @@
 package com.cname.api.steps;
 
-import com.cname.api.model.StepData;
-import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
 public class BaseSteps {
     Response response;

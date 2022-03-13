@@ -1,4 +1,0 @@
-requests
-mysql-connector-python
-behave
-allure-behave
