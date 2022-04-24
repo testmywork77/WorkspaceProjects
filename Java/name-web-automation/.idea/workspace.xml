@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc5abd1-332c-4ff1-ac13-47589f98e0c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../java-core-project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-core-project/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-core-project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-core-project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-core-project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-core-project/java-core-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-core-project/running_notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-core-project/src/Cereals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-core-project/src/Constructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-core-project/src/DaysOfTheWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-core-project/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-core-project/src/EnumTutorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-api-test-automation/src/test/java/com/cname/api/runners/ReportGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-api-test-automation/src/test/java/com/cname/api/runners/ReportGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-maven-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-maven-project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +21,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2739eBC7S7SBJgqu6X8GoCjy7oZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +32,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
