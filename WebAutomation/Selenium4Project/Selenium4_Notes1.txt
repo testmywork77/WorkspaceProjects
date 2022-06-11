@@ -1,0 +1,4 @@
+Selenium 4:
+	Microsoft Edge: Version 101.0.1210.53 (Official build) (64-bit)
+	Google Chrome:	Version 102.0.5005.63 (Official Build) (64-bit)
+	

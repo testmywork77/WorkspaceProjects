@@ -1,0 +1,16 @@
+{
+  "name": "Name1",
+  "area": "Tech Blogs",
+  "author": "Author1",
+  "id": 1,
+  "topics": [
+    "Java",
+    "Python",
+    "Scala",
+    "Golang"
+  ],
+  "address": {
+    "city": "City1",
+    "country": "Country1"
+  }
+}
