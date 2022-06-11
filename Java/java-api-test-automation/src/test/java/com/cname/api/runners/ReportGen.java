@@ -13,6 +13,7 @@ public class ReportGen {
         File reportOutputDirectory = new File("target/cucumber/report");
         List<String> jsonFiles = new ArrayList<>();
         jsonFiles.add("target/cucumber/cucumber-report.json");
+
         String buildNumber = "1.0";
         String projectName = "API Test Automation";
         Configuration configuration = new Configuration(reportOutputDirectory, projectName);
