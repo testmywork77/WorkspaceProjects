@@ -1,7 +1,0 @@
-JavaScript Hoisting :
-To avoid variable Hoisting -Use Let/Const, not var at variable declarations.
-
-Function Hoisting:
-
-
- 
