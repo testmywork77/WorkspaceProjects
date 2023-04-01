@@ -1,0 +1,47 @@
+1. Create Virtual Environment folder venv 
+    i.e. C:\WorkspaceProjects\Python\FastAPIProject>py -3 -m venv venv
+    i.e. C:\WorkspaceProjects\Python\FastAPIProject>python -m venv
+
+2. Activate Virtual Environment i.e. C:\WorkspaceProjects\Python\FastAPIProject>.\venv\Scripts\activate.bat
+3. Install FastAPI i.e. pip install "fastapi[all]"
+
+To update pip#
+python.exe -m pip install --upgrade pip
+
+Run the code#
+uvicorn main:app --reload
+
+Ex:
+from fastapi import FastAPI
+
+app = FastAPI()
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
+@ -Decorator
+app -FastAPI instance
+get -HTTP Method
+"/" -Path
+root() -Function
+
+***Why We Need Schema:
+1. It's pain to get all the values from the body
+2. The client can send whatever data they want
+3. The data isn't getting validated
+4. We ultimately want to force the client to send data in a schema that we expect
+
+***CRUD Operations:
+Create 	    POST			 /posts		    @app.post("/posts")
+
+Read		GET			    /posts/:id	    @app.get("/posts/{id}")
+Read		GET			    /posts		    @app.get("/posts")
+
+Update	    PUT/PATCH		/posts/:id	    @app.put("/posts/{id}")
+
+Delete	    DELETE		    /posts/:id	    @app.delete("/posts/{id}")
+
+
+
+
+

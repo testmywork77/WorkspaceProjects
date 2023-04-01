@@ -137,4 +137,3 @@ $ pip install virtualenv
 	$ cd Environments
 	$ virtualenv project_env
 	$ source project_env/bin/activate
-
