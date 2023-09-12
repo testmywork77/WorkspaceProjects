@@ -1,0 +1,9 @@
+org\example\CarMapperImpl.class
+org\example\SimpleSourceDestinationMapper.class
+org\example\CarDto.class
+org\example\SimpleSource.class
+org\example\SimpleDestination.class
+org\example\App.class
+org\example\Car.class
+org\example\CarMapper.class
+org\example\SimpleSourceDestinationMapperImpl.class
