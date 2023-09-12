@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="636bf5d4-9105-4d04-a5a9-a90a6be5740f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/src/main/java/org/example/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/src/main/java/org/example/CarDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/src/main/java/org/example/CarMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/src/main/java/org/example/SimpleDestination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/src/main/java/org/example/SimpleSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/src/main/java/org/example/SimpleSourceDestinationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/src/main/java/org/example/SimpleSourceDestinationMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/src/test/java/org/example/CarMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/src/test/java/org/example/SimpleSourceDestinationMapperIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/target/generated-sources/annotations/org/example/CarMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/java-maven-project/target/generated-sources/annotations/org/example/SimpleSourceDestinationMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/maven-web-automation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/maven-web-automation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/maven-web-automation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/maven-web-automation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/maven-web-automation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/java-maven-project/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/java-maven-project/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/java-maven-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/java-maven-project/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2QtCjbV3pk3y0Ca77tZMWwGP21T" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "current",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PyCharmSampleProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="636bf5d4-9105-4d04-a5a9-a90a6be5740f" name="Changes" comment="" />
+      <created>1686163626920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686163626920</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="name" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
