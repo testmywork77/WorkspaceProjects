@@ -25,21 +25,6 @@ Where Python?
 	After Creation of Virtual Environment and Add to Path:
 	Virtual Env Path - C:\Users\Venkata\AppData\Roaming\Python\Python39\Scripts
 	
-
-Python Questions/Concepts:
-	How to work with basic Python data structures like lists, tuples, and dictionaries?
-	How to write Python functions and classes?
-	How to import external libraries, allowing students the ability to create more functionality with less code?
-	How to use the NumPy and Pandas libraries to deal with large data sets?
-	How to import external datasets from places like the UCI Machine Learning Repository?
-	How to handle missing data in a dataset?
-	How to create and manipulate Pandas DataFrames, which are the most popular data science structure for handling large data?
-
-PYTHON:
-	Python is simple yet powerful, crisp yet comprehensive, flexible yet structured – "Pythonic". 
-
-Python Tutorial: virtualenv and why you should use virtual environments
-
 Python Installtion, PIP and Others:
 	Venkata@Mannepalli MINGW64 /c/WorkspacePython (development)
 	$ python --version
@@ -137,3 +122,5 @@ $ pip install virtualenv
 	$ cd Environments
 	$ virtualenv project_env
 	$ source project_env/bin/activate
+
+98480 62639

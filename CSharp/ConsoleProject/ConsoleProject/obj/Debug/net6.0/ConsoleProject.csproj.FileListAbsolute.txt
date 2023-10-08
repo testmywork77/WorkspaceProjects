@@ -1,0 +1,14 @@
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\bin\Debug\net6.0\ConsoleProject.exe
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\bin\Debug\net6.0\ConsoleProject.deps.json
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\bin\Debug\net6.0\ConsoleProject.runtimeconfig.json
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\bin\Debug\net6.0\ConsoleProject.dll
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\bin\Debug\net6.0\ConsoleProject.pdb
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\obj\Debug\net6.0\ConsoleProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\obj\Debug\net6.0\ConsoleProject.AssemblyInfoInputs.cache
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\obj\Debug\net6.0\ConsoleProject.AssemblyInfo.cs
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\obj\Debug\net6.0\ConsoleProject.csproj.CoreCompileInputs.cache
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\obj\Debug\net6.0\ConsoleProject.dll
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\obj\Debug\net6.0\refint\ConsoleProject.dll
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\obj\Debug\net6.0\ConsoleProject.pdb
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\obj\Debug\net6.0\ConsoleProject.genruntimeconfig.cache
+C:\WorkspaceProjects\CSharp\ConsoleProject\ConsoleProject\obj\Debug\net6.0\ref\ConsoleProject.dll

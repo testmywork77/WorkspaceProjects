@@ -1,0 +1,12 @@
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\bin\Debug\net6.0\API.Automation.deps.json
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\bin\Debug\net6.0\API.Automation.dll
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\bin\Debug\net6.0\API.Automation.pdb
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\obj\Debug\net6.0\API.Automation.csproj.AssemblyReference.cache
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\obj\Debug\net6.0\API.Automation.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\obj\Debug\net6.0\API.Automation.AssemblyInfoInputs.cache
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\obj\Debug\net6.0\API.Automation.AssemblyInfo.cs
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\obj\Debug\net6.0\API.Automation.csproj.CoreCompileInputs.cache
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\obj\Debug\net6.0\API.Automation.dll
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\obj\Debug\net6.0\refint\API.Automation.dll
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\obj\Debug\net6.0\API.Automation.pdb
+C:\WorkspaceProjects\CSharp\API.Automation.Demo\API.Automation\obj\Debug\net6.0\ref\API.Automation.dll

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "E7C8324iJjQ8BJ7h7Krvh+Q2xvYyZEXZoW0+IhsKNfTgvrrd2SnB8Gw7GpeSQffCokL4Oy5oXdM5jABExWD0Pg==",
+  "success": true,
+  "projectFilePath": "C:\\WorkspaceProjects\\CSharp\\API.Automation.Demo\\API.Automation\\API.Automation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vmann\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\vmann\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\vmann\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\vmann\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\vmann\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

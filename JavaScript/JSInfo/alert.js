@@ -1,0 +1,5 @@
+alert("JavaScript - External Script file!!!")
+alert("JavaScript - External Script file!!!")
+alert("JavaScript - External Script file!!!")
+alert("JavaScript - External Script file!!!")
+alert("JavaScript - External Script file!!!")
