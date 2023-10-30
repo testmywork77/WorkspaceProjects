@@ -23,3 +23,37 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('getAPI', (url, headers) => {
+    cy.request({
+        method: "GET",
+        url: url,
+        headers: headers
+    })
+})
+
+Cypress.Commands.add('postAPI', (url, headers, payload) => {
+    cy.request({
+        method: "POST",
+        url: url,
+        headers: headers,
+        body: payload
+    })
+})
+
+Cypress.Commands.add('putAPI', (url, headers, payload) => {
+    cy.request({
+        method: "PUT",
+        url: url,
+        headers: headers,
+        body: payload
+    })
+})
+
+Cypress.Commands.add('deleteAPI', (url, headers) => {
+    cy.request({
+        method: "DELETE",
+        url: url,
+        headers: headers      
+    })
+})
