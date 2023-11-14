@@ -1,6 +1,4 @@
-/*
-    Code reusability using Custom commands
-*/
+/* Code reusability using Custom commands */
 describe("API Automation - GET/POST/PUT/DELETE", () => {
   let payload = {
     name: "morpheus",
@@ -11,18 +9,18 @@ describe("API Automation - GET/POST/PUT/DELETE", () => {
     "Content-Type": "application/json",
   };
 
-  let url = "https://reqres.in/api/users/";  
+  let url = "https://reqres.in/api/users/";
   let pathParamId = 2;
-  
+
   it("Using Custom Commands", () => {
-    cy.log("URL:" + url)
+    cy.log("URL:" + url);
     // GET All
     cy.getAPI(url, headers).then((response) => {
       expect(response.status).to.equal(200);
     });
 
     // GET by Id
-    cy.getAPI(url+pathParamId, headers).then((response) => {
+    cy.getAPI(url + pathParamId, headers).then((response) => {
       expect(response.status).to.equal(200);
       expect(response.body.data.id).to.equal(2);
     });
@@ -35,17 +33,16 @@ describe("API Automation - GET/POST/PUT/DELETE", () => {
     });
 
     // PUT
-    cy.putAPI(url+pathParamId, headers, payload).then((response) => {
-        expect(response.status).to.equal(200);        
-        expect(response.body.name).to.equals("morpheus")
-        expect(response.body).has.property("job", "leader")
-        expect(response.body.id).to.not.be.null;
-      });
-
-    // DELETE
-    cy.deleteAPI(url+pathParamId, headers).then((response) => {
-        expect(response.status).to.equals(204)
+    cy.putAPI(url + pathParamId, headers, payload).then((response) => {
+      expect(response.status).to.equal(200);
+      expect(response.body.name).to.equals("morpheus");
+      expect(response.body).has.property("job", "leader");
+      expect(response.body.id).to.not.be.null;
     });
 
+    // DELETE
+    cy.deleteAPI(url + pathParamId, headers).then((response) => {
+      expect(response.status).to.equals(204);
+    });
   });
 });
