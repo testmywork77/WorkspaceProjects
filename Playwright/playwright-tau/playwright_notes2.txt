@@ -1,0 +1,25 @@
+Installing Playwright #
+    npm init playwright@latest
+
+    npx playwright --version // version check
+
+What's Installed #
+    playwright.config.ts
+    package.json
+    package-lock.json
+    tests/
+        example.spec.ts
+    tests-examples/
+        demo-todo-app.spec.ts
+
+Running the Example Test #
+    npx playwright test // By default tests will be run on all 3 browsers, chromium, firefox and webkit using 3 workers.
+
+HTML Test Reports #
+    npx playwright show-report
+
+Running the Example Test in UI Mode# 
+    npx playwright test --ui // Run your tests with UI Mode for a better developer experience with time travel debugging, watch mode.
+
+Updating Playwright #
+    npm install -D @playwright/test@latest

@@ -1,0 +1,67 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Booking",
+    "dateExported": "2023-11-14T20:41:47.174Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "01e6ebab-4e82-4660-8173-c4b09eada47f",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GetBookingSummaryByRoomId",
+            "url": "https://automationintesting.online/booking/summary?roomid=1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-13T20:58:35.028Z",
+            "modified": "2023-11-13T20:59:09.467Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "roomid",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "40fe9e25-33a2-4d10-a653-fb1606829049",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GetAllBookings",
+            "url": "https://automationintesting.online/booking/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-14T09:12:37.861Z",
+            "modified": "2023-11-14T17:24:02.440Z",
+            "headers": [
+                {
+                    "name": "cookie",
+                    "value": "token=xqpnO46il4JcimAJ"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fd78babc-16be-4da0-9689-7c016f49aa33",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GenerateToken",
+            "url": "https://automationintesting.online/auth/login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-14T12:43:10.245Z",
+            "modified": "2023-11-14T12:44:27.531Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
