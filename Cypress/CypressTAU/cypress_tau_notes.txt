@@ -1,0 +1,3 @@
+Selectors:
+    Relative cssSelector: input[name='username']
+    Relative XPath:  //input[@name='username']

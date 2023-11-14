@@ -1,0 +1,51 @@
+1.Var vs Let vs Const in JavaScript
+
+    Var:
+        (i) var variables can have either function or global scope.
+            Function Scope
+            Global Scope
+        (ii) var can be reassigned and redeclared
+            Reassigned
+            Redeclared
+        (iii) Default value of var is undefined
+        (iv). var can be used before it is declared which is also known as Hoisted concept in Javascript, which means all the declarations move to the top of the current scope (which can be either the function or script).
+    
+        Hoisting of variables:
+            Hoisting refers to the process of moving variable declarations to the top of their respective scopes, making them accessible before they are initialized or assigned a value. This behavior applies to both global and function scopes. If you attempt to access a variable before it's initialized, you won't get an error, instead, you'll receive the default value "undefined".
+
+            JavaScript allocates memory for all variables and functions defined in the program before the code is executed, ensuring their availability during runtime.It is also important to note javascript hoists declaration and not initializations.
+
+            Edge Cases:
+            In the below shared example, I am assigning the value before it is declared and it will not return the error.
+            ex 1:
+            x = 5;
+            console.log(x); // 5
+            var x;
+
+            ex2:
+            console.log(x); // undefined - access variable before it is intialized
+            var x = 5; // only declarations hoisted , not intializations
+        
+    Let:
+        (i). let variables have block scope (limited to the code block where they are defined).
+        (ii) let can be reassigned, but not redeclared in the same scope.
+            Reassigned: Works Fine
+                ex:
+                let x = 5;
+                x = 10;
+                console.log(x); // 10
+
+            Redeclared: Throws Error
+                ex:
+                let x = 5;
+                x = 10;
+                console.log(x);
+                let x = 25;
+                console.log(x);
+
+        (iii) In let, the default value is undefined.
+
+    Const:
+        (i) const variables also have block scope just like let.
+        (ii) const cannot be reassigned after declaration.
+        (iii) const must be assigned a value when declared. It throws error when const is not assigned (unlike var and let where the default value is undefined).

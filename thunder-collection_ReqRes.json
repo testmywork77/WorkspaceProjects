@@ -1,0 +1,43 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ReqRes",
+    "dateExported": "2023-11-13T20:56:55.300Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a09b2992-e4bf-40b8-84aa-9e8d36937803",
+            "colId": "122b60a6-a058-42a8-a2c3-53a59ae6a69f",
+            "containerId": "",
+            "name": "GetUsers",
+            "url": "https://reqres.in/api/users?page=2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-13T20:54:55.325Z",
+            "modified": "2023-11-13T20:55:04.068Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "page",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "614339ed-b4b2-44d8-8184-50a2bbb9d59f",
+            "colId": "122b60a6-a058-42a8-a2c3-53a59ae6a69f",
+            "containerId": "",
+            "name": "GetUserById",
+            "url": "https://reqres.in/api/users/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-13T20:55:32.397Z",
+            "modified": "2023-11-13T20:55:56.483Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
