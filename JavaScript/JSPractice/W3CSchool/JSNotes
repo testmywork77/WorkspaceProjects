@@ -1,0 +1,90 @@
+JavaScript:
+JavaScript is the programming language of the Web.
+
+Why Study JavaScript?
+JavaScript is one of the 3 languages all web developers must learn: 1. HTML to define the content of web pages 2. CSS to specify the layout of web pages 3. JavaScript to program the behavior of web page
+
+Version of JavaScript:
+The Original JavaScript ES1 ES2 ES3 (1997-1999)
+The First Main Revision ES5 (2009)
+The Second Revision ES6 (2015)
+All Yearly Additions (2016, 2017, 2018, 2019, 2020)
+
+1. JavaScript Can Change HTML Content - "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript". -document.getElementById("demo").innerHTML = "Hello JavaScript";
+2. JavaScript Can Change HTML Attribute Values -document.getElementById('myImage').src='pic_bulbon.gif'
+3. JavaScript Can Change HTML Styles (CSS) -document.getElementById("demo").style.fontSize = "35px";
+4. JavaScript Can Hide HTML Elements -document.getElementById("demo").style.display = "none";
+5. JavaScript Can Show HTML Elements -document.getElementById("demo").style.display = "block";
+
+JavaScript Where To
+
+1. The <script> Tag
+ex:
+<script>
+    document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+
+JavaScript Functions and Events:
+A JavaScript function is a block of JavaScript code, that can be executed when "called" for.
+
+JavaScript in <head>
+ex:
+
+<head>
+    <script>
+        function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+    </script>
+</head>
+
+<body>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+</body>
+
+JavaScript in <body>
+ex:
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+    function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+    }
+</script>
+
+Note: Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation
+slows down the display.
+
+* External JavaScript -Scripts can also be placed in external files
+ex:
+// myScript.js
+function myFunction() {
+document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
+    <script src="myScript.js"></script>
+
+* External JavaScript Advantages -Placing scripts in external files has some advantages
+1. It separates HTML and code
+2. It makes HTML and JavaScript easier to read and maintain
+3. Cached JavaScript files can speed up page loads
+
+* JavaScript Output:
+Writing into an HTML element, using innerHTML.
+Writing into the HTML output using document.write().
+Writing into an alert box, using window.alert().
+Writing into the browser console, using console.log().
+
+* Using innerHTML:
+Changing the innerHTML property of an HTML element is a common way to display data in HTML.
+ex: document.getElementById("demo").innerHTML = "Hello World!";
+
+Using document.write():
+
+
+
+
+
+

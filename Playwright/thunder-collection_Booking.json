@@ -1,0 +1,205 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Booking",
+    "dateExported": "2023-11-17T07:37:12.796Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "01e6ebab-4e82-4660-8173-c4b09eada47f",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GetBookingByRoomIdWithQueryParam",
+            "url": "https://automationintesting.online/booking/summary?roomid=1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-13T20:58:35.028Z",
+            "modified": "2023-11-16T12:20:37.804Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "roomid",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f5e71de6-8b40-49ae-9471-51a2491c19c6",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GetBookingByRoomIdNotExistWithQueryParam",
+            "url": "https://automationintesting.online/booking/summary?roomid=9999",
+            "method": "GET",
+            "sortNum": 22500,
+            "created": "2023-11-16T10:04:42.763Z",
+            "modified": "2023-11-16T10:05:17.089Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "roomid",
+                    "value": "9999",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "8e9d5b0d-08ec-47d0-8b4d-d8ef431ebe1c",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GetBookingByRoomIdEmptyWithQueryParam",
+            "url": "https://automationintesting.online/booking/summary?roomid=",
+            "method": "GET",
+            "sortNum": 23750,
+            "created": "2023-11-16T10:11:20.588Z",
+            "modified": "2023-11-16T10:11:50.244Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "roomid",
+                    "value": "",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "19fd0a26-57db-4417-b7ee-4fffc9c0e994",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GetBookingByRoomIdValidAuth",
+            "url": "https://automationintesting.online/booking/1",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2023-11-16T11:04:08.514Z",
+            "modified": "2023-11-17T07:34:27.231Z",
+            "headers": [
+                {
+                    "name": "cookie",
+                    "value": "8gsembekpCCdz9Yx",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "eaeaf2ee-287f-45cb-89a7-06e2a7649401",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GetBookingByRoomIdInValidAuth",
+            "url": "https://automationintesting.online/booking/1",
+            "method": "GET",
+            "sortNum": 28750,
+            "created": "2023-11-17T07:34:46.909Z",
+            "modified": "2023-11-17T07:34:46.909Z",
+            "headers": [
+                {
+                    "name": "cookie",
+                    "value": "8gsembekpCCdz9Yx",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2f4016f5-1c9d-4701-b48c-2abc9cebc020",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GetBookingByRoomIdNotExistInvalidAuth",
+            "url": "https://automationintesting.online/booking/999999",
+            "method": "GET",
+            "sortNum": 32500,
+            "created": "2023-11-16T12:21:22.867Z",
+            "modified": "2023-11-17T07:36:48.168Z",
+            "headers": [
+                {
+                    "name": "cookie",
+                    "value": "test"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "40fe9e25-33a2-4d10-a653-fb1606829049",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GetAllBookingsValidAuth",
+            "url": "https://automationintesting.online/booking/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-14T09:12:37.861Z",
+            "modified": "2023-11-17T07:34:31.916Z",
+            "headers": [
+                {
+                    "name": "cookie",
+                    "value": "token=8gsembekpCCdz9Yx",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5e54c9f7-e435-48a1-ab21-cc67981b15c5",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GetAllBookingsInvalidAuth",
+            "url": "https://automationintesting.online/booking/",
+            "method": "GET",
+            "sortNum": 45000,
+            "created": "2023-11-16T12:23:48.844Z",
+            "modified": "2023-11-16T12:24:38.333Z",
+            "headers": [
+                {
+                    "name": "cookie",
+                    "value": "token=test"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fd78babc-16be-4da0-9689-7c016f49aa33",
+            "colId": "931636ff-ddfe-4d82-8604-e86088dfee9d",
+            "containerId": "",
+            "name": "GenerateToken",
+            "url": "https://automationintesting.online/auth/login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-14T12:43:10.245Z",
+            "modified": "2023-11-16T09:51:16.719Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": [],
+            "preReq": {
+                "inlineScripts": [
+                    {
+                        "script": [
+                            "console.log(\"pre request scripting\");"
+                        ]
+                    }
+                ]
+            },
+            "postReq": {
+                "inlineScripts": [
+                    {
+                        "script": [
+                            "console.log(\"post request scripting\");",
+                            ""
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
