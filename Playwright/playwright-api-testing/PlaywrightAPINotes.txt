@@ -1,3 +1,8 @@
 Run all the tests 10 times each:
     npx playwright test --repeat-each=10
 
+Run specific test in feature file based on line number:
+    npx playwright test booking.get.spec.ts:118
+
+
+
