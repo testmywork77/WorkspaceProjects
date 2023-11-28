@@ -24,6 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
+// getAPI
 Cypress.Commands.add('getAPI', (url, headers) => {
     cy.request({
         method: "GET",
@@ -32,6 +33,7 @@ Cypress.Commands.add('getAPI', (url, headers) => {
     })
 })
 
+// postAPI
 Cypress.Commands.add('postAPI', (url, headers, payload) => {
     cy.request({
         method: "POST",
@@ -41,6 +43,7 @@ Cypress.Commands.add('postAPI', (url, headers, payload) => {
     })
 })
 
+// putAPI
 Cypress.Commands.add('putAPI', (url, headers, payload) => {
     cy.request({
         method: "PUT",
@@ -50,6 +53,7 @@ Cypress.Commands.add('putAPI', (url, headers, payload) => {
     })
 })
 
+// deleteAPI
 Cypress.Commands.add('deleteAPI', (url, headers) => {
     cy.request({
         method: "DELETE",

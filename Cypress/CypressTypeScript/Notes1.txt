@@ -1,0 +1,19 @@
+Cypress with TypeScript Setup Steps:
+    Step 1: Create a folder
+    
+    Step 2: Run "npm init" command
+    
+    Step 3: Install Cypress via npm i.e. npm install cypress --save-dev
+
+    Step 4: To run cypress scripts 
+        a. cypress open i.e. npx cypress open
+        b. npx cypress run (or)
+        npx cypress run --spec cypress\e2e\spec.cy.js  // in Command prompt (or)
+        npx cypress run --spec .\cypress\e2e\spec.cy.js // in Powershell prompt
+
+    Step 5: Install TypeScript i.e. npm install --save-dev typescript
+
+    Step 6: Creating  "tsconfig.json" file inside "cypress" folder
+
+    Step 7: Configure tsconfig.json
+
