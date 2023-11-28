@@ -1,0 +1,108 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "JSONPlaceHolder",
+    "dateExported": "2023-11-26T20:51:58.370Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "13d49c1e-083a-465c-ba4e-f0f75dfb0007",
+            "colId": "9c99f383-9a06-4389-8b5b-b362da8974f7",
+            "containerId": "",
+            "name": "GetPostById",
+            "url": "https://jsonplaceholder.typicode.com/posts/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-25T19:57:06.032Z",
+            "modified": "2023-11-26T20:46:34.368Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bbc40ee8-4237-4378-8530-f1047322d82d",
+            "colId": "9c99f383-9a06-4389-8b5b-b362da8974f7",
+            "containerId": "",
+            "name": "DeletePostById",
+            "url": "https://jsonplaceholder.typicode.com/posts/1",
+            "method": "DELETE",
+            "sortNum": 15000,
+            "created": "2023-11-26T20:43:49.075Z",
+            "modified": "2023-11-26T20:46:40.922Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e92ebbc6-8b63-437e-a50a-32516b3b1fac",
+            "colId": "9c99f383-9a06-4389-8b5b-b362da8974f7",
+            "containerId": "",
+            "name": "PutPostById",
+            "url": "https://jsonplaceholder.typicode.com/posts/1",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-11-26T20:37:28.329Z",
+            "modified": "2023-11-26T20:40:12.064Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"foo1\",\n  \"body\": \"bar1\",\n  \"userId\": 1\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7f3f0728-c4da-4e83-bff9-2001a485181a",
+            "colId": "9c99f383-9a06-4389-8b5b-b362da8974f7",
+            "containerId": "",
+            "name": "PatchPostById",
+            "url": "https://jsonplaceholder.typicode.com/posts/1",
+            "method": "PATCH",
+            "sortNum": 25000,
+            "created": "2023-11-26T20:42:43.956Z",
+            "modified": "2023-11-26T20:43:23.623Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"foo1\",\n  \"body\": \"bar1\",\n  \"userId\": 1\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "644ea414-0827-4cd0-9833-e77b983790db",
+            "colId": "9c99f383-9a06-4389-8b5b-b362da8974f7",
+            "containerId": "",
+            "name": "PostRequest",
+            "url": "https://jsonplaceholder.typicode.com/posts/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-11-25T20:07:33.383Z",
+            "modified": "2023-11-25T20:09:36.345Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"foo\",\n  \"body\": \"bar\",\n  \"userId\": 11\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9825cba3-0bcd-46bc-b607-c7fd9dd5c862",
+            "colId": "9c99f383-9a06-4389-8b5b-b362da8974f7",
+            "containerId": "",
+            "name": "GetPosts",
+            "url": "https://jsonplaceholder.typicode.com/posts/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-25T20:08:13.396Z",
+            "modified": "2023-11-25T20:08:20.289Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

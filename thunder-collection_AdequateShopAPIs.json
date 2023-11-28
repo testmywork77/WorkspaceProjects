@@ -1,0 +1,51 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "AdequateShopAPIs",
+    "dateExported": "2023-11-27T09:27:49.365Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a1d6edab-993a-42d7-82be-3d16e16e1211",
+            "colId": "c23fdc57-bf4a-4f1b-8da7-de569678ef3a",
+            "containerId": "",
+            "name": "GetTourists",
+            "url": "http://restapi.adequateshop.com/api/tourist/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-26T21:43:24.740Z",
+            "modified": "2023-11-27T09:26:05.010Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f84765d3-2e8f-47c0-ae1f-b4121e1fbdf6",
+            "colId": "c23fdc57-bf4a-4f1b-8da7-de569678ef3a",
+            "containerId": "",
+            "name": "GetTouristById",
+            "url": "http://restapi.adequateshop.com/api/tourist/284723",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-27T09:25:36.307Z",
+            "modified": "2023-11-27T09:26:20.096Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b67fae5d-1e1a-4085-81ec-701fefe58de8",
+            "colId": "c23fdc57-bf4a-4f1b-8da7-de569678ef3a",
+            "containerId": "",
+            "name": "GetTouristById Copy",
+            "url": "http://restapi.adequateshop.com/api/tourist/284723",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-27T09:26:25.085Z",
+            "modified": "2023-11-27T09:26:25.085Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
