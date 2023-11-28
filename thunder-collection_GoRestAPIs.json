@@ -1,0 +1,103 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GoRestAPIs",
+    "dateExported": "2023-11-26T20:52:29.751Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f0a6611e-fc99-453d-bebd-bfa52d4685c0",
+            "colId": "0274c2ca-29fd-4a05-bf1e-32a71316fca9",
+            "containerId": "",
+            "name": "GetUsers",
+            "url": "https://gorest.co.in/public/v2/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-14T09:23:46.145Z",
+            "modified": "2023-11-14T09:23:52.511Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1cc61b59-577d-4428-afce-7a688f439f21",
+            "colId": "0274c2ca-29fd-4a05-bf1e-32a71316fca9",
+            "containerId": "",
+            "name": "GetUserById",
+            "url": "https://gorest.co.in/public/v2/users/1700715",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-14T09:24:26.081Z",
+            "modified": "2023-11-14T09:24:43.295Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7c93b142-a3dc-463a-8c3c-ae856c9beb32",
+            "colId": "0274c2ca-29fd-4a05-bf1e-32a71316fca9",
+            "containerId": "",
+            "name": "GetPosts",
+            "url": "https://gorest.co.in/public/v2/posts",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-14T09:24:57.529Z",
+            "modified": "2023-11-14T09:25:01.970Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "39ce3fbe-246d-4318-a678-c0f08992394a",
+            "colId": "0274c2ca-29fd-4a05-bf1e-32a71316fca9",
+            "containerId": "",
+            "name": "GetComments",
+            "url": "https://gorest.co.in/public/v2/comments",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-11-14T09:25:20.712Z",
+            "modified": "2023-11-14T09:25:27.131Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b8173cd3-c8bc-4476-8907-09dc0016381a",
+            "colId": "0274c2ca-29fd-4a05-bf1e-32a71316fca9",
+            "containerId": "",
+            "name": "GetToDos",
+            "url": "https://gorest.co.in/public/v2/todos",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-11-14T09:25:46.585Z",
+            "modified": "2023-11-14T09:26:14.457Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0a3856ae-ce54-46cd-be3c-1513bb92f6bb",
+            "colId": "0274c2ca-29fd-4a05-bf1e-32a71316fca9",
+            "containerId": "",
+            "name": "PostUser",
+            "url": "https://gorest.co.in/public/v2/users",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-11-14T10:39:56.321Z",
+            "modified": "2023-11-14T12:36:01.943Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer ACCESS-TOKEN"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Tenali Ramakrishna\",\n  \"gender\": \"male\",\n  \"email\": \"tenali.ramakrishna@15ce.com\",\n  \"status\": \"active\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
