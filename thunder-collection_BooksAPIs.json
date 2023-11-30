@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "BooksAPIs",
-    "dateExported": "2023-11-27T21:14:09.933Z",
+    "dateExported": "2023-11-29T19:07:47.122Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,12 +14,12 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2023-11-27T20:24:49.013Z",
-            "modified": "2023-11-27T20:38:55.699Z",
+            "modified": "2023-11-29T12:29:10.977Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"clientName\": \"Test\",\n  \"clientEmail\": \"test1@gmail.com\"\n}",
+                "raw": "{\n  \"clientName\": \"Test\",\n  \"clientEmail\": \"mtest1@gmail.com\"\n}",
                 "form": []
             },
             "tests": [],
@@ -63,17 +63,17 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2023-11-27T20:27:49.843Z",
-            "modified": "2023-11-27T21:13:54.505Z",
+            "modified": "2023-11-29T18:11:58.636Z",
             "headers": [
                 {
                     "name": "Authorization",
-                    "value": "Bearer 9e0775cb3e3653c2a6f8ad40bffd11cfe3c62c2e8d5056de52bee5b02713b4ac"
+                    "value": "Bearer dde624ad73e1e454ea2874bb32332bb476e930d65594c217a2e6816ab6093c1e"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"bookId\":1,\n  \"customerName\": \"CName1\"\n}",
+                "raw": "{\n  \"bookId\":2,\n  \"customerName\": \"customerName402\"\n}",
                 "form": []
             },
             "tests": []
@@ -83,11 +83,35 @@
             "colId": "6b1ced6c-7b96-47f2-8eb7-810167d3edb3",
             "containerId": "",
             "name": "GetAnOrder",
-            "url": "https://simple-books-api.glitch.me/orders/nc8jPN6LoMJFYAChxS16V",
+            "url": "https://simple-books-api.glitch.me/orders/",
             "method": "GET",
             "sortNum": 30000,
             "created": "2023-11-27T20:43:53.510Z",
-            "modified": "2023-11-27T20:44:19.100Z",
+            "modified": "2023-11-29T17:39:33.254Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer 9e0775cb3e3653c2a6f8ad40bffd11cfe3c62c2e8d5056de52bee5b02713b4ac"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"bookId\":\"1\",\n  \"customerName\": \"CName1\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "937e9f4d-cc58-433a-984d-1d1d86976724",
+            "colId": "6b1ced6c-7b96-47f2-8eb7-810167d3edb3",
+            "containerId": "",
+            "name": "GetOrders",
+            "url": "https://simple-books-api.glitch.me/orders/nc8jPN6LoMJFYAChxS16V",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-29T17:39:14.051Z",
+            "modified": "2023-11-29T17:39:14.051Z",
             "headers": [
                 {
                     "name": "Authorization",
