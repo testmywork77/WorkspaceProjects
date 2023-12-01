@@ -10,3 +10,12 @@ CSS Selector
     tag attribute -> tag[attribute='value']
     tag class attribute -> tag.class[attribute='value']
 Note: tag is optional
+
+
+https://fakestoreapi.com/products
+https://fakestoreapi.com/products?limit=5
+
+https://jsonpathfinder.com/
+
+Transfor JSON to JSON Schema:
+https://transform.tools/json-to-json-schema
