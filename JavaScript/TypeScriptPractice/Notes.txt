@@ -1,0 +1,34 @@
+Step 1: index.html
+Step 2: main.ts
+Step 3: compile "main.ts" with >tsc main.ts
+Step 5: Add this <script src="main.js" defer></script> in "<head>" section of index.html
+Step 6: Segregate files in different folders
+Step 7: Create file i.e. "tsconfig.json" file using this coomand i.e. tsc --init
+Step 7: Uncomment and update default settings
+1. "rootDir": "./src" 
+2. "outDir": "./build/js"                              
+3. Change default "target": "es2016" -> "target": "es5", Again back to "target": "es2016"
+
+Step 8: To make build .ts files which belongs to only "src" director
+    After "compilerOptions" add
+
+
+Step 9: Uncomment "noEmitOnError": true" not wrong compile .ts fils with error scribiling code
+
+Automatic/Hot Re-load compilation:
+    > tsc -w  // keep on watch new & updated .ts files and compile them .js files
+    > tsc --noEmitOnError -w
+
+Basic Data Types:
+number
+string
+boolean
+union
+
+let myName: string = "Dave";
+let age: number = 25;
+let isLoading: boolean ;
+let album: any;
+
+let postId: string | number
+let isActive: number | boolean
