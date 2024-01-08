@@ -1,0 +1,37 @@
+Playwright Fixtures(Fixture means Global varibales):
+1. browser
+2. page
+
+browser.newContext() -Creates a new browser context. It won't share cookies/cache with other browser contexts.
+
+Note: Node Package eXecute
+What is NPX? NPX stands for Node Package eXecute and like NPM, it is installed when we get NodeJS. It is basically a NPM package runner, which allows us to run JavaScript packages without installing it. That means that if you only need to use something just once NPX is perfect, and package pollution is not a concern.
+
+Websites:
+1. https://rahulshettyacademy.com/loginpagePractise/
+2. https://playwright.dev/
+3. https://nodejs.org/en
+
+// Runs E2E tests
+> npx playwright test 
+
+> npx playwright test --headed
+
+// Runs the tests only on Desktop Chrome
+> npx playwright test --project=chromium
+
+// Runs the tests of a specific file
+> npx playwright test test\example.spec.js
+
+// Run the tests in debug mode
+> npx playwright test --debug
+
+// To open last HTML report run:
+npx playwright show-report
+
+const config = {
+    key: value,
+    use: {
+
+    }   
+}
