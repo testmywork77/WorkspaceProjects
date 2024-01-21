@@ -7,7 +7,6 @@ public class Car {
     private String type;
 
     //constructor, getters, setters etc.
-
     public Car(String make, int numberOfSeats, String type) {
         this.make = make;
         this.numberOfSeats = numberOfSeats;
