@@ -1,5 +1,3 @@
-package practice;
-
 import java.util.stream.Collectors;
 
 public class RemoveChar {

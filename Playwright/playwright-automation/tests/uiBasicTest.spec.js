@@ -15,20 +15,24 @@ test('page fixture', async ({page}) => {
 */
 
 // https://rahulshettyacademy.com/loginpagePractise/ - (username is rahulshettyacademy and Password is learning)
-test('Login page valid credentials', async ({page}) => {
+/*
+test('Login page valid credentials', async ({page}) => {    
     const username = page.locator("input#username");
     const password = page.locator("#password");
     const signIn = page.locator("#signInBtn");
+    const cardTitles = page.locator(".card-body .card-title a");
+
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
     await username.fill("rahulshettyacademy")
-    await password.locator("#password").fill("learning")
-    await signIn.locator("#signInBtn").click();
+    await password.fill("learning")
+    await signIn.click();
 
-    console.log(await page.locator(".card-body .card-title a").first().textContent());
-    console.log(await page.locator(".card-body .card-title a").nth(1).textContent());
+    console.log(await cardTitles.first().textContent());
+    console.log(await cardTitles.nth(1).textContent());
+    const allTitles = await cardTitles.allTextContents();
+    console.log(allTitles);
 })
 
-/*
 test('Login page invalid credentials', async ({page}) => {
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
     await page.locator("input#username").fill("rahulshettyacademy")
@@ -38,3 +42,15 @@ test('Login page invalid credentials', async ({page}) => {
     await expect(await page.locator("[style*='block']")).toContainText("Incorre123ct");
 })
 */
+
+test('DropdownRadioCheck', async({page}) => {
+    await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
+    const dropdown = page.locator("select.form-control");
+    await dropdown.selectOption("Consultant");
+    await page.locator(".radiotextsty").last().click();
+    await page.locator("#okayBtn").click();
+    console.log(await page.locator(".radiotextsty").last().isChecked());
+    await expect(await page.locator(".radiotextsty").last()).toBeChecked();
+
+    await page.pause();
+})
